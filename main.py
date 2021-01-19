@@ -11,6 +11,7 @@ def pdf_to_text(file_obj):
 iface = gr.Interface(fn = pdf_to_text, 
                      inputs = 'file', 
                      outputs = 'audio', 
+                     verbose = True,
                      title = 'PDF into speech Application',
                      description = 'Simple application in python to try the Gradio package components',
                      article = 
